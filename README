@@ -1,0 +1,43 @@
+NAME: HARRY YEE
+EMAIL: hyee1234@gmail.com
+UID: 704754172
+SLIPDAY: #1
+
+This project consist of a client and a server who are connected via
+socket I/O. The client has connect to the server in which it forks
+onto bash. Communication between the two programs is just a communication
+with keyboard to bash and bash back to keyboard via an array of pipes
+and sockets.
+
+Files Included
+
+lab1b-client.c: This is the main file that connect to the server. It has
+three options 
+		--compress: for compression and decompression between server and client
+		--log="file" : for logging all recieved and sent 
+		--port=NUMBER : port number to connect onto server
+
+lab1b-server.c: This file is the one that waits and accepts the client. It
+has two options
+		--compression: enables compression and decompression between server and client
+		--port=NUMBER: same as the client
+
+README: This file
+Makefile: contains make, clean, dist, client, server
+
+server: compiles the lab1b-server.c
+client: compiles the lab1b-client.c
+make: compiles both
+clean: deletes files created
+dist: distrubtes into tarball
+
+
+
+Work cited
+the TA and his wonderful brain
+
+
+
+http://www.cs.rpi.edu/~moorthy/Courses/os98/Pgms/socket.html
+http://man7.org/linux/man-pages/man2/poll.2.html
+https://www.zlib.net/zlib_how.html
