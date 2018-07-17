@@ -1,7 +1,6 @@
 #!/bin/bash
 #Name:Harry Yee
-#Email:hyee1234@gmail.com
-#UID:704754172
+
 
 default:
 	#compile
