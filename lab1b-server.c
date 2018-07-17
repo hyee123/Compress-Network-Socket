@@ -1,6 +1,5 @@
 //NAME: HARRY YEE
-////EMAIL: hyee1234@gmail.com
-////UID: 704754172
+
 
 
 #define _GNU_SOURCE
